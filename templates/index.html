@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Morse Code Converter</h1>
+        <form method="post">
+            <label for="choice">Choose an option:</label>
+            <select id="choice" name="choice" required>
+                <option value="">Select an option</option>
+                <option value="1">Convert text to Morse code</option>
+                <option value="2">Convert Morse code to text</option>
+            </select>
+            <textarea id="inputText" name="inputText" rows="4" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Convert</button>
+        </form>
+        <h2>Output:</h2>
+        <pre>{{ output }}</pre>
+    </div>
+</body>
+</html>
