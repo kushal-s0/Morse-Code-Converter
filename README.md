@@ -60,8 +60,19 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/templates and /static`. <br/>
 You will find all the components used and you can edit your information accordingly.
-#!/bin/bash
+```bash
+# Clone the repository
+git clone https://github.com/username/repository.git
+
+# Change directory
+cd repository
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
+python app.py
+
 ### Show your support
 
 Give a ⭐ if you like this website!
