@@ -61,7 +61,7 @@ The page will reload if you make edits.
 Open the project folder and Navigate to `/templates and /static`. <br/>
 You will find all the components used and you can edit your information accordingly.
 ```bash
-# Clone the repository
+###Clone the repository
 git clone https://github.com/username/repository.git
 
 # Change directory
